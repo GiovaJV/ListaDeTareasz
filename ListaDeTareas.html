@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/4c0427cbec.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Lista de Tareas</title>
+</head>
+<body>
+  <div class="container">
+
+ <h1 class="titulo">Lista De Tareas</h1>
+<form id="formulario">
+ <div class="container-input">
+ <input id="text" class="input" placeholder="Escribe aqui">
+ <button id="boton" class="boton">Añadir</button> 
+  </div>
+  <div class="container_todo">
+    <div class="container_list">
+      <div class="container_list-1">
+<ul class="lista">
+  <li id="descripcion">
+    <p id="descripcion">Cuadro de descripciones</p></li>
+ <li class="nuevaTarea">
+  <button class="checkpositivo1"><i class="fa-solid fa-check" style="color: #21ef06;"></i></i></button>
+  <p class="tareas"></p>
+  <button class="checknegativo1"><i class="fa-solid fa-trash"></i></button>
+ </li>
+</ul>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="botones">
+  <label id="boton2">Total: </label>
+  <label id="boton3">Completado: 1</label>
+  <label id="boton4">Incompleto: 2</label>
+</div>
+  <script src="index.js"></script>
+</body>
+</html>
